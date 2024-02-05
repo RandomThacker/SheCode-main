@@ -60,6 +60,12 @@ section {
   /* text-align: center; */
 }
 
+.footer-p{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
 
 
 .section-title {
@@ -105,7 +111,7 @@ h1 {
 
 p {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.4em;
+  /* font-size: 1.4em; */
   font-weight: bold;
   color: #ffffff;
   /* text-shadow: 0 0 40px #FFFFFF, 0 0 30px #FFFFFF, 0 0 20px #FFFFFF; */
@@ -1045,7 +1051,7 @@ main .colon-group .colon span::after {
   order: 1; /* Change order of the second box to 1 to move it to the top */
 }
 .main-prize-card {
-  background-color: rgba(28, 229, 232, 0.364);
+  /* background-color: rgba(28, 229, 232, 0.364); */
   border-radius: 10px;
   cursor: pointer;
   display: flex;
@@ -1775,6 +1781,7 @@ i {
   padding: 20px 0;
 }
 
+
 .site-footer img {
   width: 10vw;
   align-items: center;
@@ -1859,6 +1866,7 @@ i {
     padding-left: 12px;
   }
 }
+
 
 .directions{
   padding-top: 5%
@@ -1982,3 +1990,10 @@ i {
     font-size: 1.2em;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .footer-p{
+    font-size: 1rem;
+  }
+}
+
