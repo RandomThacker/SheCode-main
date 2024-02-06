@@ -1117,6 +1117,16 @@ main .colon-group .colon span::after {
   width: 100%;
 }
 
+.main-prize-section{
+  background-image: url('./images/blur-prize-bg.svg');
+  padding: 4rem;
+    background-position: center;
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+}
+
+
+
 .second-prize-row {
   display: flex;
   margin-top: 0.7rem;
