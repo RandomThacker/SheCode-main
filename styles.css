@@ -302,7 +302,7 @@ a {
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translate(-50%,10%);
+  transform: translate(-50%,30%);
   text-align: center;
   gap: 1rem;
 }
@@ -315,8 +315,20 @@ a {
 
 .logosPowered{
   display: flex;
-  gap: 5rem;
+  gap: 5vw;
+  align-items: center;
+  justify-content: center;
 }
+
+.logopow{
+  width: 16vw;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* .wtm{
+  width: 19vw;
+} */
 
 .gradientBlack{
   position: absolute;
