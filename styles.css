@@ -43,7 +43,6 @@
   border-radius: 10px;
 }
 
-
 html {
   margin: 0px;
   padding: 0px;
@@ -81,8 +80,6 @@ section {
   padding: 20px;
   /* text-align: center; */
 }
-
-
 
 .section-title {
   font-weight: bold;
@@ -269,8 +266,9 @@ a {
 
 /* <!-- Landing --> */
 #landing {
-  height: 140vh;
+  height: 100vh;
   background: url("./images/bg-jp.jpg");
+  /* background: url("./images/epicWave.svg"); */
   background-color: #000;
   /* background-position: center; */
   object-fit: cover;
@@ -278,7 +276,7 @@ a {
   position: relative;
 }
 
-.heroimage{
+.heroimage {
   width: 15vw;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -292,35 +290,35 @@ a {
   left: 10%!important;
 } */
 
-.revalogo{
+.revalogo {
   width: 10vw;
 }
 
-.powered{
+.powered {
   display: flex;
   flex-direction: column;
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translate(-50%,30%);
+  transform: translate(-50%, 30%);
   text-align: center;
   gap: 1rem;
 }
 
-.powered h1{
+.powered h1 {
   font-size: 3vw;
   /* text-transform: uppercase; */
   font-weight: 600;
 }
 
-.logosPowered{
+.logosPowered {
   display: flex;
   gap: 5vw;
   align-items: center;
   justify-content: center;
 }
 
-.logopow{
+.logopow {
   width: 16vw;
   height: auto;
   border-radius: 10px;
@@ -330,7 +328,7 @@ a {
   width: 19vw;
 } */
 
-.gradientBlack{
+.gradientBlack {
   position: absolute;
   top: 78%;
   height: 30vw;
@@ -1504,7 +1502,7 @@ i {
   padding: 2vw 0 4vw 0;
   font-size: 2vw;
 }
-#faq p{
+#faq p {
   color: #000;
 }
 
@@ -1859,7 +1857,7 @@ i {
   font-size: 18px;
 }
 
-.site-footer-link{
+.site-footer-link {
   /* padding: 10px; */
   color: #fff;
   &:hover {
@@ -1909,7 +1907,7 @@ i {
   padding: 5px;
 }
 
-.loc-text a{
+.loc-text a {
   padding-top: 20px;
   color: #fff;
 
@@ -1934,14 +1932,14 @@ i {
   }
 }
 
-.directions{
+.directions {
   margin: 1rem 0;
   display: flex;
   align-items: center;
-  gap:5px;
+  gap: 5px;
 }
 
-.dir-arr:hover .arrow{
+.dir-arr:hover .arrow {
   translate: 2px;
 }
 
@@ -1950,7 +1948,6 @@ i {
   color: white;
 }
 
-
 /* Stack columns vertically on mobile */
 @media (max-width: 768px) {
   .site-footer .col-lg-3 {
@@ -1958,26 +1955,25 @@ i {
     text-align: center;
     align-items: center;
   }
-  .arrow{
+  .arrow {
     left: 75%;
   }
 
-  .powered h1{
+  .powered h1 {
     font-size: 8vw;
     /* text-transform: uppercase; */
     font-weight: 600;
     margin-bottom: 1.5rem;
   }
 
-  .revalogo{
+  .revalogo {
     width: 10rem;
   }
-  
-  .logosPowered{
+
+  .logosPowered {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-   
   }
 }
 
