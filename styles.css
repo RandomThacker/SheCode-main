@@ -1961,6 +1961,24 @@ i {
   .arrow{
     left: 75%;
   }
+
+  .powered h1{
+    font-size: 8vw;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+
+  .revalogo{
+    width: 10rem;
+  }
+  
+  .logosPowered{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   
+  }
 }
 
 /* Sponsors Media Query */
