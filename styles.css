@@ -267,8 +267,8 @@ a {
 /* <!-- Landing --> */
 #landing {
   height: 100vh;
-  background: url("./images/bg-jp.jpg");
-  /* background: url("./images/epicWave.svg"); */
+  /* background: url("./images/bg-jp.jpg"); */
+  background: url("./images/wtmCurves10.svg");
   background-color: #000;
   /* background-position: center; */
   object-fit: cover;
