@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SheCodes</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo.svg" />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="index.js"></script>
   </head>
@@ -13,7 +14,10 @@
     <header>
       <div class="navCont">
         <nav class="navbar">
-          <a href="#" class="logo"> SheCodes </a>
+          <a href="#" class="logo"> 
+          <!-- <img src="./images/icon.svg" alt="">   -->
+          <img src="./images/revalogo.png" class="revalogo">
+          </a>
 
           <ul class="nav-menu">
             <li class="nav-item">
@@ -46,11 +50,20 @@
 
     <!-- Landing -->
     <section id="landing">
-      <img src="./images/logo.svg" alt="" />
+      <img src="./images/logo.svg" class="heroimage" />
+      <!-- <img src="./images/revalogo.png" class="revalogo"> -->
 
       <div class="wrapper">
         <main></main>
+        <div class="powered">
+          <h1>Powererd By</h1>
+          <div class="logosPowered">
+            <img src="./images/testLogo.png" alt="">
+            <img src="./images/testLogo.png" alt="">
+          </div>
+        </div>
       </div>
+      <img src="./images/gradientBlack.png" class="gradientBlack">
     </section>
 
     <div class="grid">
@@ -447,7 +460,7 @@
               <div class="main-prize-card-info-wrapper">
                 <div class="main-prize-card-info">
                   <div class="main-prize-card-info-title">
-                    <h3>₹15,000</h3>
+                    <h3>₹1,50,000</h3>
                     <!-- <h4>Places to be apart. Wait, what?</h4> -->
                   </div>
                 </div>
@@ -499,7 +512,7 @@
                 <div class="main-prize-card-info-wrapper">
                   <div class="main-prize-card-info">
                     <div class="main-prize-card-info-title">
-                      <h3>₹10,000</h3>
+                      <h3>₹50,000</h3>
                       <!-- <h4>A single corn. Er, I mean horn.</h4> -->
                     </div>
                   </div>
@@ -551,7 +564,7 @@
                 <div class="main-prize-card-info-wrapper">
                   <div class="main-prize-card-info">
                     <div class="main-prize-card-info-title">
-                      <h3>₹5,000</h3>
+                      <h3>₹30,000</h3>
                       <!-- <h4>These absolutely deserve to exist.</h4> -->
                     </div>
                   </div>
@@ -740,7 +753,6 @@
           <!-- </section> -->
         </section>
       </div>
-    </div>
 
     <!-- FAQ -->
     <section id="faq">
@@ -750,62 +762,65 @@
       <div class="accordion-container">
         <div class="accordion-item">
           <button class="accordion-header">
-            FAQ Question 1 <span class="icon">+</span>
+            Where is the hackathon taking place? <span class="icon">+</span>
           </button>
           <div class="accordion-content">
-            <p>Answer to question 1...</p>
+            <p>Bangalore, India <br>
+              REVA University, SVB block, Rangasthala</p>
           </div>
         </div>
         <div class="accordion-item">
           <button class="accordion-header">
-            FAQ Question 2 <span class="icon">+</span>
+            When will SheCodes 2024 take place?<span class="icon">+</span>
           </button>
           <div class="accordion-content">
-            <p>Answer to question 2...</p>
+            <p>SheCodes 2024 is scheduled for 21st - 22nd march 2024 for over 30 hours </p>
           </div>
         </div>
         <div class="accordion-item">
           <button class="accordion-header">
-            FAQ Question 3 <span class="icon">+</span>
+            What is the maximum and minimum number of participants allowed in a group?<span class="icon">+</span>
           </button>
           <div class="accordion-content">
-            <p>Answer to question 3...</p>
+            <p>A group can have a minimum of 3 participants and a maximum of 5 participants with almost 2 male participants.</p>
           </div>
         </div>
         <div class="accordion-item">
           <button class="accordion-header">
-            FAQ Question 3 <span class="icon">+</span>
+            What is the registration deadline? <span class="icon">+</span>
           </button>
           <div class="accordion-content">
-            <p>Answer to question 3...</p>
+            <p>9th of March 2024</p>
           </div>
         </div>
         <div class="accordion-item">
           <button class="accordion-header">
-            FAQ Question 3 <span class="icon">+</span>
+            What kind of skill set is required for SheCodes? <span class="icon">+</span>
           </button>
           <div class="accordion-content">
-            <p>Answer to question 3...</p>
+            <p>There is no such skill required as a prerequisite for the hackathon. Although we do hope to see the skill of innovation among the participants.</p>
           </div>
         </div>
         <div class="accordion-item">
           <button class="accordion-header">
-            FAQ Question 3 <span class="icon">+</span>
+            Is there a registration fee?<span class="icon">+</span>
           </button>
           <div class="accordion-content">
-            <p>Answer to question 3...</p>
+            <p>No</p>
           </div>
         </div>
         <div class="accordion-item">
           <button class="accordion-header">
-            FAQ Question 3 <span class="icon">+</span>
+            Will there be workshops or mentorship sessions?<span class="icon">+</span>
           </button>
           <div class="accordion-content">
-            <p>Answer to question 3...</p>
+            <p>Yes</p>
           </div>
         </div>
       </div>
     </section>
+  </div>
+
 
     <!--Footer -->
     <section>
@@ -858,28 +873,25 @@
             <div class="col-lg-3 col-12 pb-5 mt-6">
               <h5 class="site-footer-title mb-3 pl-3">Location</h5>
 
-              <p class="text-white d-flex mt-3 mb-2 footer-p">
+              <p class="text-white d-flex mt-3 mb-2">
                 Rukmini Knowledge Park, Kattigenahalli, Srinivasa Nagar,
                 Bengaluru - 560064
               </p>
-              <div class="loc-text">
-                <a
-                  class="link-fx-1 color-contrast-higher mt-3 pl-3"
-                  target="”_blank”"
-                  href="https://www.google.com/maps/dir//REVA+University,+Rukmini+Knowledge+Park,+Kattigenahalli,+SH+104,+Srinivasa+Nagar,+Bengaluru,+Karnataka+560064/@13.1165796,77.6331791,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3bae19721a651fd3:0xdee225fe28f600f6!2m2!1d77.6352927!2d13.1163393!3e0"
-                >
+              
+              <a
+              class="link-fx-1 color-contrast-higher mt-3 pl-3 dir-arr"
+              target="”_blank”"
+              href="https://www.google.com/maps/dir//REVA+University,+Rukmini+Knowledge+Park,+Kattigenahalli,+SH+104,+Srinivasa+Nagar,+Bengaluru,+Karnataka+560064/@13.1165796,77.6331791,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3bae19721a651fd3:0xdee225fe28f600f6!2m2!1d77.6352927!2d13.1163393!3e0"
+            >
                 <div class="directions">
-                Get Directions
+              
+                  <div>Get Directions</div>
 
                   <div class="arrow">
-                    <!-- <div class="arrow-text">  </div> -->
-                      <div class="arrow-top"></div>
-                      <div class="arrow-bottom"></div>
-                  </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ededed" viewBox="0 0 256 256"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path></svg>                  </div>
                 
                 </div>  
                 </a>
-              </div>
             </div>
 
             <div class="col-lg-3 col-12 pb-2 mt-6">
