@@ -250,8 +250,10 @@ a {
   }
 
   .nav-menu {
+    background: rgba(52, 52, 52, 0.25);
+    backdrop-filter: blur(8px);
     position: fixed;
-    left: -100%;
+    left: -130%;
     top: 70px;
     gap: 0;
     width: 100%;
@@ -266,6 +268,8 @@ a {
   }
 
   .nav-menu.active {
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(20px);
     left: 0;
   }
 }
