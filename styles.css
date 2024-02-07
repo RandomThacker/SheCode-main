@@ -131,7 +131,7 @@ h1 {
 p {
   font-family: "Open Sans", sans-serif;
   font-size: 1.4em;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #ffffff;
   /* text-shadow: 0 0 40px #FFFFFF, 0 0 30px #FFFFFF, 0 0 20px #FFFFFF; */
 }
