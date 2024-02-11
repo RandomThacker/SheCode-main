@@ -138,9 +138,7 @@ const init = () => {
     numberMinute.number = minutes;
     numberSecond.number = seconds;
 
-
     // console.log(`Time left:${numberDay.number} days ${numberHour.number}:${numberMinute.number}:${numberSecond.number}`);
-
   };
   intervalId = setInterval(updateClock, 1000);
 };
@@ -207,20 +205,24 @@ document.querySelectorAll(".accordion-header").forEach((button) => {
 
 //<!-- Schedule -->
 
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
     if (entry.isIntersecting) {
-      entry.target.classList.add('reveal');
+      entry.target.classList.add("reveal");
       return;
     }
 
-    entry.target.classList.remove('reveal');
+    entry.target.classList.remove("reveal");
   });
 });
-const squares = document.querySelectorAll('.reveal');
+const squares = document.querySelectorAll(".reveal");
 squares.forEach((element) => observer.observe(element));
 // <!-- Organising Team -->
 
 // <!--Contact Us -->
 
 // <!--Footer -->
+
+const handleRegister = () => {
+  alert("Registrations will begin soon... Stay tuned :)");
+};
