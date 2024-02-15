@@ -675,7 +675,38 @@ main .colon-group .colon span::after {
     width: 0.3rem;
   }
 }
+/* About us */
+.about-us-section {
+  padding: 5%;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
 
+.about-us-heading {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+}
+.aboutus-content {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.1ch;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-us-section {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+  .aboutus-content {
+    padding: 8%;
+    font-size: 0.75rem;
+    letter-spacing: 0.1ch;
+  }
+}
 /* <!-- Themes --> */
 #themes {
   height: 100vh;
