@@ -153,9 +153,14 @@ header button {
   padding: 10px;
   border-radius: 15px;
   border: none;
+  transition: transform 300ms ease-out;
 }
 header button:hover {
+  cursor: pointer;
+  transform: scale(1.08);
   color: hsl(276, 64%, 64%);
+  transition: transform 300ms ease-out;
+
   border-color: lighten(#b18fe0, 20%);
   box-shadow: 0 0 16px rgba(124, 32, 164, 0.1);
 
