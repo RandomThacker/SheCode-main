@@ -236,6 +236,7 @@ a {
 
   button {
     display: block;
+    transform: scale(0.9);
   }
 
   #landing .heroimage {
