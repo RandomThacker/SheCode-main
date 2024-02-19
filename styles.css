@@ -235,7 +235,7 @@ a {
   }
 
   button {
-    display: none;
+    display: block;
   }
 
   #landing .heroimage {
