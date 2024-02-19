@@ -224,5 +224,5 @@ squares.forEach((element) => observer.observe(element));
 // <!--Footer -->
 
 const handleRegister = () => {
-  window.location.href = "https://hack2skill.com/admin/hackathon/shecodes";
+  window.location.href = "https://hack2skill.com/hack/shecodes";
 };
