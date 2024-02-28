@@ -1945,11 +1945,96 @@ i {
   transform: scale(1.02);
 }
 
-/* <!-- Judges --> */
-#judges {
-  height: 100vh;
+/* <!-- Sponsors --> */
+.sponsors-section{
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", Arial;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+  overflow: hidden;
+  padding: 5% 0;
+  margin-bottom: 0%;
 }
-/* <!-- Organising Team --> */
+.sponsor-text{
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+}
+.cont-sponsors{
+  display: flex;
+  width: 50%;
+  height: 100px;
+  margin: 30px auto;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 6%;
+}
+.container-reva{
+  padding: 2%;
+  width: 15rem;
+  height: 8rem;
+  margin: 30px auto;
+}
+.container-wtm{
+  padding: 2%;
+  width: 12rem;
+  height: 8rem;
+  margin: 30px auto;
+}
+.container-h2s{
+  padding: 2%;
+  width: 10rem;
+  height: 5rem;
+  margin: 30px auto;
+}
+/* glass effect */
+.glass{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.131), rgba(255, 255, 255, 0.131));
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.title-sponsors{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+}
+
+.platform-sponsors{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+
+.sponsor-reva{
+  object-fit: contain;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-height:100%; 
+  max-width:100%;
+}
+.sponsor-wtm{
+  object-fit: contain;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-height:100%; 
+  max-width:100%;
+}
+.sponsor-h2s{
+  object-fit: contain;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-height:100%; 
+  max-width:100%;
+}
 
 /* <!--Contact Us --> */
 #contactus {
@@ -2099,7 +2184,17 @@ i {
 }
 
 /* Sponsors Media Query */
-@media only screen and (min-width: 800px) {
+
+@media (min-width: 300px) and (max-width: 450px) {
+  .cont-sponsors{
+    margin: 1%;
+    width: 100%;
+  }
+  .platform-sponsors{
+    margin-top: 35%;
+  }
+}
+/* @media only screen and (min-width: 800px) {
   h1 {
     font-size: 4em;
   }
@@ -2107,7 +2202,7 @@ i {
     font-size: 1em;
     overflow-x: hidden;
   }
-}
+} */
 
 @media only screen and (max-width: 320px) {
   h1 {
