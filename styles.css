@@ -1576,6 +1576,79 @@ i {
     width: 100%;
   }
 }
+/* <!-- Speakers --> */
+.speaker-section {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 3.5vw;
+  border-radius:5px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(-45deg, rgba(238, 119, 82, 0.39), rgba(212, 46, 110, 0.39), rgba(35, 166, 213, 0.39), rgba(154, 28, 189, 0.39));
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;  
+} 
+
+.main-speaker-section{
+  width:70%;
+  margin:auto;
+  border: 0.3px solid rgb(84, 81, 81);
+  padding: 2rem 2.5rem;
+  background:rgba(255, 255, 255, 0.015);
+    border-radius: 15px;
+    transition: box-shadow 0.25s;
+    backdrop-filter: blur(2px);
+
+}
+
+.speaker-text-gradient{
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-size: 50px;
+  opacity:1;
+
+}
+
+.speaker-info{
+  color: whitesmoke;
+  font-family: inherit;
+  font-size: 22px;
+  font-family: "Open Sans";
+  opacity:1;
+}
+  .speaker-mail{
+    font-size: 18px;
+    opacity:1;
+  }
+  @media only screen and (max-width: 455px) {
+    .speaker-info {
+      font-size: 15px;
+      padding:5px;
+    }
+    .speaker-mail{
+      font-size: 8px;
+    }
+    .speaker-text-gradient{
+        font-size: 30px;
+    
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .speaker-info {
+      font-size: 18px;
+      padding:15px;
+    }
+    .speaker-mail{
+      font-size: 13px;
+    }
+    .speaker-text-gradient{
+        font-size: 35px;
+    
+    }
+  }
 /* <!-- Sponsors & Partners --> */
 
 .contain-er {
