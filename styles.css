@@ -92,7 +92,7 @@ section {
   font-size: 50px;
   color: #00ffd5;
   text-align: center;
-  padding-bottom: 4vw;
+  padding-bottom: 20px;
 }
 
 a {
@@ -282,7 +282,7 @@ a {
 
 /* <!-- Landing --> */
 #landing {
-  height: 130vh;
+  min-height: 130vh;
   /* background: url("./images/bg-jp.jpg"); */
   background: url("./images/bg3.png");
   background-color: #000;
@@ -291,6 +291,7 @@ a {
   background-size: cover;
   position: relative;
   z-index: -2;
+  margin-bottom: 8%;
 }
 
 .spacebottom {
@@ -307,6 +308,7 @@ a {
   transform: translate(-50%, -50%);
   top: 35%;
   left: 50%;
+  z-index: 999;
 }
 
 /* .revalogo{
@@ -2044,7 +2046,7 @@ i {
   margin: 30px auto;
   flex-direction: row;
   gap: 50px;
-  margin-bottom: 6%;
+  margin-bottom: 1%;
 }
 .container-reva {
   padding: 2%;
@@ -2059,7 +2061,7 @@ i {
   margin: 30px auto;
 }
 .container-h2s {
-  padding: 2%;
+  padding: 1%;
   width: 10rem;
   height: 5rem;
   margin: 30px auto;
@@ -2826,5 +2828,53 @@ i {
   }
   .timer-disclaimer {
     font-size: 0.7rem;
+  }
+}
+
+/* sponsor section */
+
+.sponsor-block {
+  margin: 5% 0;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+.sponsor-category {
+  color: white;
+  padding-bottom: 20px;
+  margin: auto;
+  font-weight: 900;
+}
+
+.logo-container {
+  height: 100px;
+  width: fit-content;
+  /* background-color: #4f0e9a; */
+  /* border: #fff solid 0.5px; */
+  border-radius: 16px;
+}
+
+.logo-container img {
+  height: 100%;
+  margin: auto;
+  padding: 10px 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .logos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-container {
+    height: 80px;
+  }
+
+  .sponsor-block {
+    margin: 15% 0;
   }
 }
