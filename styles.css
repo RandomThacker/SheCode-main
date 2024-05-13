@@ -240,7 +240,12 @@ a {
   }
 
   #landing .heroimage {
-    width: 60vw !important;
+    width: 15vw !important;  
+    top:30%;
+    left: 50%;
+    position: absolute;
+    z-index: 999;
+    transform: translate(-50%,-50%);
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -383,6 +388,17 @@ a {
 .collaboration-with {
   margin-top: 5%;
 }
+.abt-shecodes {
+  position: absolute;
+  top: 52%;
+  left: 15%;
+  right: 15%;
+  width: 70vw;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  
+
+}
 .powered-by,
 .collaboration-with {
   display: flex;
@@ -455,7 +471,7 @@ a {
   /* background: #000; */
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 60%;
+  top: 65%;
   left: 50%;
   z-index: 9;
 }
@@ -2778,7 +2794,7 @@ i {
 
 .timer-disclaimer {
   font-size: 1.25rem;
-  color: rgb(169, 142, 171);
+  color: rgb(1F69, 142, 171);
   text-align: center;
   width: 100vw;
 }
