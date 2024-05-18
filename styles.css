@@ -1600,15 +1600,15 @@ i {
 
 .card {
   position: relative;
-  background: rgba(137, 0, 255, 0.15);;
+  background: rgba(137, 0, 255, 0.15);
   border-radius: 20px;
   padding: 20px 60px;
-  
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
+
 .card .image {
   width: 150px;
   height: 150px;
@@ -1618,20 +1618,24 @@ i {
   border-radius: 50%;
   margin-bottom: 20px;
 }
+
 .card .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
 }
+
 .card h3 {
   text-align: center;
   color: blueviolet;
 }
+
 .card p {
   color: orange;
   text-align: center;
 }
+
 .swiper-container {
   width: 70%;
   margin: auto;
@@ -1642,15 +1646,18 @@ i {
   transition: box-shadow 0.25s;
   backdrop-filter: blur(2px);
 }
+
 .swiper {
   margin: 0 auto;
   cursor: grab;
 }
+
 .swiper-slide {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .swiper-button-next,
 .swiper-button-prev {
   width: 30px;
@@ -1659,27 +1666,34 @@ i {
   background: #fff;
   box-shadow: 0 0 10px #ccc;
 }
+
 .swiper-button-next::after,
 .swiper-button-prev::after {
   font-size: 16px;
   font-weight: bold;
   color: #000;
 }
+
 .swiper-button-next:hover {
   transform: scale(1.2) translateX(80%);
 }
+
 .swiper-button-prev:hover {
   transform: scale(1.2) translateX(-80%);
 }
+
 .swiper-button-next {
   transform: translateX(100%);
 }
+
 .swiper-button-prev {
   transform: translateX(-100%);
 }
+
 .swiper-pagination {
   transform: translateY(200%);
 }
+
 .swiper-pagination-bullet {
   background: #fff;
   width: 15px;
@@ -1728,6 +1742,11 @@ i {
     font-size: 35px;
   }
 } */
+
+
+/* Judges */
+
+
 /* <!-- Sponsors & Partners --> */
 
 .contain-er {

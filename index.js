@@ -178,32 +178,62 @@ document.getElementById("track-prize-cards-container").onmousemove = (e) => {
   }
 };
 // <!-- Speakers -->
+document.addEventListener('DOMContentLoaded', function() {
+  var swiperSpeakers = new Swiper('.mySwiperSpeakers', {
+    slidesPerView: 3,
+    spaceBetween: 10,
+    pagination: {
+      el: '.speakers-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.speakers-button-next',
+      prevEl: '.speakers-button-prev',
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+    },
+  });
 
-var swiper = new Swiper('.mySwiper', {
-  slidesPerView: 3,
-  spaceBetween: 10,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,    
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 1,
+  var swiperJudges = new Swiper('.mySwiperJudges', {
+    slidesPerView: 3,
+    spaceBetween: 10,
+    pagination: {
+      el: '.judges-pagination',
+      clickable: true,
     },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 20,
+    navigation: {
+      nextEl: '.judges-button-next',
+      prevEl: '.judges-button-prev',
     },
-    992: {
-      slidesPerView: 3,
-      spaceBetween: 20,
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
     },
-  },
+  });
 });
+
+
+
 
 // <!-- Sponsors & Partners -->
 
