@@ -105,7 +105,7 @@ const addColon = () => {
 
 const init = () => {
   // **** Set your target date and time here **** //
-  const targetDate = new Date("2024-06-14T00:00:00");
+  const targetDate = new Date("2025-03-08T00:00:00");
 
   let numberDay = addDigits(0, 3); // Add a new digit group for days
   addColon();
